@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Result</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">     
+    </head>
+    <body class="result">
+        <div class="pageresult">
+            <h1 class="h1result"><strong class="deception2">The Result</strong></h1><br><br>
+                <pre class="div1">
+                    {{.Result}}
+                </pre>
+                 <div class="div2">
+                        <a href="/">
+                            <button class="backmainpage" type="button"> Retour</button>
+                        </a>
+                            <a href="/download?file={{.FilePath}}">
+                                <button class="btn"><i class="fa fa-download"></i> Download</button>
+                            </a>
+                        </div>
+                    </div>
+        </div>
+    </body>
+</html>

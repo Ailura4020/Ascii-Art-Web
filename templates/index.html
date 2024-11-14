@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page principale Web-site</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap" rel="stylesheet">     
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap" rel="stylesheet">   
+    <body class="mainpage">
+        <div class="pagecentrale">
+            <h1 class="h1"><strong class="deception">Ascii Art</strong></h1><br><br>
+             <form method="post" action="/result">
+                 <div>
+                    <label for="Ascii"></label><br>
+                    <textarea name="text" id="Carac" placeholder="Tapez votre texte à convertir ici"></textarea><br>  
+                 </div>
+                <div class="police">
+                    <label for="Police">Choix de la police</label>
+                     <select name="banner" id="Police">
+                        <option value="standard">Standard</option>
+                         <option value="thinkertoy">Thinkertoy</option>
+                         <option value="shadow">Shadow</option>
+                         <option value="Test">Error Test</option>
+                        </select>
+                 </div>
+                 <button class="butt" type="submit" value="Submit">Let's ASCII</button>      
+             </form>
+        </div>
+    </body>
+</html>

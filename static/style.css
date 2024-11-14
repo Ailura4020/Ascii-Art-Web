@@ -1,0 +1,442 @@
+.mainpage {
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    position: fixed;
+    /*min-height: 598px;*/
+    background-repeat: no-repeat;
+    background-image: url("/static/webphoto/dem2.jpg"); 
+    
+    margin: 0px;
+    padding: 0px;
+    z-index: 0;
+  
+
+    
+}
+.pagecentrale{
+    background-color: rgb(255, 255, 255,0.3);
+    width: 50%;
+    height:100%;
+    border-left: 1vw groove rgb(0, 0, 0);
+    border-right: 1vw ridge rgb(0, 0, 0);
+
+    overflow:hidden;
+    
+    padding: 20px;
+    margin-left: 25%;
+    z-index: 1;
+}
+
+.h1 {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5vw;
+
+    text-shadow: 5px 5px 4px red;
+    text-align: center;
+
+    color: blue;
+    z-index: 2;
+
+    text-decoration: underline aqua;
+
+    /*border: 10px ridge black;
+    border-radius: 15px;
+    margin: auto;
+    padding: 0px 20px 0px 10px;
+    box-shadow: 5px 5px 5px rgba(173, 172, 172, 0.5);*/
+}
+
+.h1::first-letter{
+    color: rgb(0, 255, 242)
+}
+
+
+
+
+
+.deception{
+    border-top: 10px ridge black ;
+    border-bottom: 10px groove black;
+    border-left: 10px ridge black;
+    border-right: 10px groove black;
+    border-radius: 15px;
+    margin: auto;
+    padding: 0px 20px 0px 10px;
+    box-shadow: 5px 5px 5px rgba(173, 172, 172, 0.5);
+    z-index: 3;
+
+}
+
+#Carac{
+    width: 100%; /* make the textarea take up the full width */
+    height: 20vw;
+    margin: 0; /* remove the margin */
+    padding: 20px;/* add some padding to the textarea */
+    border-top: 0.5vw ridge black ;
+    border-bottom: 0.5vw groove black;
+    border-left: 0.5vw ridge black;
+    border-right: 0.5vw groove black;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    overflow: auto;
+    vertical-align: middle;
+    box-sizing: border-box;
+    resize : none;
+}
+
+/*-----------------------------------------------*/
+/*-------------SCROLL-BARRE----------------------*/
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 8px;
+    cursor: pointer;
+}
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ff000000;
+    cursor: pointer;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+
+
+.police{
+    font-family: "Kalam", cursive;
+    font-weight: 500;
+    font-style:italic;
+    text-align: left;
+    margin-left: 0%;
+    margin-top: 2%;
+    font-size: 2vw;
+
+    z-index: 4;
+
+    text-decoration: underline;
+}
+
+#Police{
+    background-color: #fbff00d8;
+    color: #000000;
+   
+    border-top: 0.3vw ridge black;
+    border-bottom: 0.3vw groove black;
+    border-left: 0.3vw ridge  black;
+    border-right: 0.3vw groove black;
+    border-radius: 1vw;
+
+    padding:2px;
+
+    cursor: pointer;
+
+
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 100%;
+
+}
+
+select#Police{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+option::after {
+    display: none;
+  }
+
+
+
+
+.butt{
+    float: right;
+
+    padding: 2% 8% 2% 8%;
+    margin-right: 5%;
+
+    background-color: #46b605d8;
+    color: #ffffff;
+   
+    border-top: 0.5vw ridge black;
+    border-bottom: 0.5vw groove black;
+    border-left: 0.5vw ridge  black;
+    border-right: 0.5vw groove black;
+    border-radius: 80%;
+
+    cursor: pointer;
+
+
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vw;
+
+    box-shadow: -1vw 0.1vw rgba(0, 0, 0, 0.2);
+    ;
+
+}
+
+.button {
+    position: relative;
+    z-index: 5;
+    left: 75%;
+
+
+    z-index: 5;
+
+    
+}
+
+
+/*.foreground-image {
+    position: absolute;
+    z-index: 0; /* make sure it's on top of other elements 
+    width: 50%; /* adjust the width and height to your needs 
+    height: 50%;
+    min-height: 598px;
+    max-height: 1500px;
+    min-width: 598px;
+    max-width: 1500px;
+    margin-left: 25%;
+  }/*
+
+/*-------------------------------------------------------------------*/
+
+
+.error{
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    position: fixed;
+    min-height: 598px;
+    min-width: auto;
+    background-repeat: no-repeat;
+    background-image: url("webphoto/run.jpg");
+
+    margin: -8px;
+    padding: 0px;
+    z-index: -2;
+
+}
+
+.error-text{
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5vw;
+
+    color: white;
+
+    text-shadow: 5px 5px 3px rgb(255, 81, 0);
+    margin-top: 20%;
+    margin-bottom: 20%;
+    line-height: 50%;
+
+    text-align: center;
+}
+
+.span{
+    font-size : 2vw;
+}
+
+.a{
+    color: aqua;
+    font-size: 4vw;
+    line-height: 70%;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+
+
+.button {
+    background-color: #00a2ff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 1px red;
+  }
+
+  .button-wrapper {
+    position: relative; /* Add this */
+    margin-right: 40%;
+    margin-top: -15%;
+   
+    z-index: 1; /* Make sure the button wrapper is on top */
+  }
+  
+/*----------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------*/
+
+.result{
+    
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height:100%;
+    position: fixed;
+    min-height: 258px;
+    min-width: 347px;
+    background-repeat: no-repeat;
+    background-image: url("webphoto/result.jpg");
+    
+    margin: 0px;
+    padding: 0px;
+}
+
+.pageresult{
+    background-color: rgb(255, 255, 255,0.3);
+    width: 50%;
+    height:100%;
+    border-left: 1vw groove rgba(40, 40, 40, 0.788);
+    border-right: 1vw ridge rgb(0, 0, 0);
+    
+    overflow: hidden;
+    margin-left: 25%;
+    z-index: 1;
+
+}
+
+.deception2{
+    border-top: 1vw ridge black ;
+    border-bottom: 1vw groove black;
+    border-left: 1vw ridge black;
+    border-right: 1vw groove black;
+    border-radius: 2vw;
+    margin: auto;
+    padding: 0vw 2vw 0vw 1vw;
+    box-shadow: 2px 1px 1px rgba(94, 94, 94, 0.5);
+    z-index: 3;
+}
+
+.h1result{
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 5vw;
+
+    text-shadow: 0.5vw 0.5vw 0.25vw rgba(0, 0, 0, 0.651);
+    text-align: center;
+
+    color: rgba(212, 0, 255, 0.719);
+    z-index: 2;
+
+
+    text-decoration: underline;
+    text-transform: capitalize;
+    
+}
+
+.h1result:first-letter{
+    color: red;
+}
+
+.div1 {
+    height: 50%;
+    width: 94%;
+    background-color: white;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-top: 0.5vw ridge black;
+    border-bottom: 0.5vw groove black;
+    border-left: 0.5vw ridge black;
+    border-right: 0.5vw groove black;
+    border-radius:10%;
+
+    overflow: auto;
+    
+    padding-top: 1%;
+    padding-left: 5%;
+
+    box-sizing: border-box;
+}
+
+.btn{
+    float: right;
+
+    padding: 2% 8% 2% 8%;
+    margin-right: 5%;
+
+    background-color: #46b605d8;
+    color: #ffffff;
+   
+    border-top: 0.5vw ridge black;
+    border-bottom: 0.5vw groove black;
+    border-left: 0.5vw ridge  black;
+    border-right: 0.5vw groove black;
+    border-radius: 80%;
+
+    cursor: pointer;
+
+
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vw;
+
+    box-shadow: -1vw 0.1vw rgba(0, 0, 0, 0.2);
+   
+}
+
+.backmainpage {
+    float: left;
+
+    padding: 2% 8% 2% 8%;
+    margin-left: 5%;
+
+    background-color: #c90505c9;
+    color: #ffffff;
+
+    
+    border-top:  0.5vw ridge black;
+    border-bottom: 0.5vw groove black;
+    border-left: 0.5vw ridge  black;
+    border-right: 0.5vw groove black;
+    border-radius: 80%;
+
+    cursor: pointer;
+
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2vw;
+
+    box-shadow: 1vw 0.1vw rgba(0, 0, 0, 0.2);
+}
+
+/*@media (min-aspect-ratio:16/10) {
+    .background-clip{
+        width: 100%;
+        height: 100%;
+        
+    }
+ }
+
+ @media (max-aspect-ratio:16/10) {
+    .background-clip{
+        width: 100%;
+        height: 100%;
+    }
+ }
